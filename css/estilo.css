@@ -25,3 +25,23 @@ h1,h3,strong {
 #cronograma p{
     text-transform: uppercase;
 }
+
+#atalhos {
+
+    background: #3a734c;
+    display: inline-flex;
+    margin: 0;
+    padding: 7px 0;
+    width: 100%;
+}
+
+#atalhos li a {
+    display: inline-block;
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 3px 16px;
+    text-transform: uppercase;
+}
+
+

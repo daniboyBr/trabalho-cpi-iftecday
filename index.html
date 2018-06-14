@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta charset="UTF-8" />
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -13,22 +14,29 @@
 </head>
 
 <body>
+    <ul id="atalhos">
+        <li><a href="#evento" accesskey="1" tabindex="1">Sobre o Evento [1]</a></li>
+        <li><a href="#palestrantes" accesskey="2">Ir para Paletrantes [2]</a></li>
+        <li><a href="#oficinas" accesskey="3">Ir para as Oficinas [3]</a></li>
+        <li><a href="#cronograma" accesskey="4">Ir para Cronograma[4]</a></li>
+        <li><a href="#contato" accesskey="5">Ir para Contato[5]</a></li>
+    </ul>
     <nav>
         <div class="nav-wrapper green darken-2">
             <div class="container">
-                <a href="#" class="brand-logo">if tech day</a>
+                <a href="#" class="brand-logo">IF TEC DAY</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li>
-                        <a href="#">O evento</a>
+                        <a href="#evento">O Evento</a>
                     </li>
                     <li>
-                        <a href="#">informações</a>
+                        <a href="#informacoes">Informações</a>
                     </li>
                     <li>
-                        <a href="#">cronograma</a>
+                        <a href="#">Cronograma</a>
                     </li>
                     <li>
-                        <a href="#">contato</a>
+                        <a href="#">Contato</a>
                     </li>
                     <li>
                         <a href="" class=" btn waves-effect waves-light white orange-text">inscreva-se</a>
@@ -77,7 +85,7 @@
         <br>
         <div class="row">
             <div class="col s12 m6">
-                <h1 class="center orange-text text-deep">o evento</h1>
+                <h1 class="center orange-text text-deep" id="evento">o evento</h1>
                 <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quasi soluta consectetur facere dolore dolorum
                     velit sunt quia alias et aliquid quas ullam asperiores, hic quibusdam amet veniam nostrum placeat?</p>
             </div>
@@ -94,7 +102,7 @@
         <section id="informacoes">
             <h1 class="center">informações</h1>
             <article id="palestrantes">
-                <h3>palestrantes</h3>
+                <h3 id="informacoes">palestrantes</h3>
                 <div class="row">
                     <div class="col s12 m4">
                         <div class="card">
