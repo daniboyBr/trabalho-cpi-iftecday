@@ -14,18 +14,19 @@
 </head>
 
 <body>
-    <ul id="atalhos">
-        <li><a href="#evento" accesskey="1" tabindex="1">Sobre o Evento [1]</a></li>
-        <li><a href="#palestrantes" accesskey="2">Ir para Paletrantes [2]</a></li>
-        <li><a href="#oficinas" accesskey="3">Ir para as Oficinas [3]</a></li>
-        <li><a href="#cronograma" accesskey="4">Ir para Cronograma[4]</a></li>
-        <li><a href="#contato" accesskey="5">Ir para Contato[5]</a></li>
+    <ul id="atalhos" role="menu">
+        <li role="menuitem"><a href="#evento" accesskey="1" tabindex="1">Sobre o Evento [1]</a></li>
+        <li role="menuitem"><a href="#palestrantes" accesskey="2">Ir para Paletrantes [2]</a></li>
+        <li role="menuitem"><a href="#oficinas" accesskey="3">Ir para as Oficinas [3]</a></li>
+        <li role="menuitem"><a href="#cronograma" accesskey="4">Ir para Cronograma[4]</a></li>
+        <li role="menuitem"><a href="#contato" accesskey="5">Ir para Contato[5]</a></li>
+        <li role="menuitem"><button id="contraste" accesskey="5" class="btn waves-effect waves-light">Auto Contraste[5]</button></li>
     </ul>
     <nav>
         <div class="nav-wrapper green darken-2">
             <div class="container">
                 <a href="#" class="brand-logo">IF TEC DAY</a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <ul id="nav-mobile" class="right hide-on-med-and-down" role="navigation">
                     <li>
                         <a href="#evento">O Evento</a>
                     </li>
@@ -105,7 +106,7 @@
                 <h3 id="informacoes">palestrantes</h3>
                 <div class="row">
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card cards">
                             <div class="card-image">
                                 <div class="carousel carousel-slider center">
                                     <div class="carousel-item red white-text" href="#one!">
@@ -134,7 +135,7 @@
                         </div>
                     </div>
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card cards">
                             <div class="card-image">
                                 <div class="carousel carousel-slider center">
                                     <div class="carousel-item red white-text" href="#one!">
@@ -162,7 +163,7 @@
                         </div>
                     </div>
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card cards">
                             <div class="card-image">
                                 <div class="carousel carousel-slider center">
                                     <div class="carousel-item red white-text" href="#one!">
@@ -198,7 +199,7 @@
                 <h3>oficinas</h3>
                 <div class="row">
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card cards">
                             <div class="card-image">
                                 <div class="carousel carousel-slider center">
                                     <div class="carousel-item red white-text" href="#one!">
@@ -226,7 +227,7 @@
                         </div>
                     </div>
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card cards">
                             <div class="card-image">
                                 <div class="carousel carousel-slider center">
                                     <div class="carousel-item red white-text" href="#one!">
@@ -254,7 +255,7 @@
                         </div>
                     </div>
                     <div class="col s12 m4">
-                        <div class="card">
+                        <div class="card cards">
                             <div class="card-image">
                                 <div class="carousel carousel-slider center">
                                     <div class="carousel-item red white-text" href="#one!">
@@ -293,12 +294,12 @@
                 <div class="col s12 m6">
                     <h5>Dia 13/09 </h5>
                     <div class="col s12 m12">
-                        <div class="card-panel hoverable  white-text green darken-2">
+                        <div class="card-panel hoverable  white-text green darken-2 cards">
                             <p>manhã</p>
                             <p>
-                                <strong>"Palestra 1/"Dr. Fulano de tal"</strong>/Bloco D - Sala 1/9:00 horas</p>
+                                <strong>Palestra 1 / Dr. Fulano de tal</strong>/Bloco D - Sala 1 / 9:00 horas</p>
                             <p>
-                                <strong>"Desafio 1 "/ "Prof. Cigano de tal "</strong>/Bloco A - Sala 2/10:00 horas </p>
+                                <strong>Desafio 1 / Prof. Cigano de tal</strong>/Bloco A - Sala 2 /10:00 horas </p>
                             <p>
                                 <strong>"Oficina 1"/"PhD. Fulano de tal"</strong>/Bloco C - Sala 3/11:00 horas</p>
                             <p>
@@ -308,7 +309,7 @@
                         </div>
                     </div>
                     <div class="col s12 m12">
-                        <div class="card-panel hoverable  white-text deep-orange">
+                        <div class="card-panel hoverable  white-text deep-orange cards">
                             <p>tarde </p>
                             <p>
                                 <strong>"Palestra 2/ MsC. Siclano de tal"</strong>/Bloco A - Mini auditorio/14:00 horas</p>
@@ -325,7 +326,7 @@
                         </div>
                     </div>
                     <div class="col s12 m12">
-                        <div class="card-panel hoverable   white-text green darken-2">
+                        <div class="card-panel hoverable   white-text green darken-2 cards">
                             <p>noite </p>
                             <p>
                                 <strong>"Oficina 4"/ "Prof. Elano de tal"</strong>/Bloco b - Sala 9 / 19:00</p>
@@ -341,7 +342,7 @@
                 <div class="col s12 m6">
                     <h5>Dia 14/09 </h5>
                     <div class="col s12 m12">
-                        <div class="card-panel hoverable  white-text deep-orange">
+                        <div class="card-panel hoverable  white-text deep-orange cards">
                             <p>manhã</p>
                             <p>
                                 <strong>"Palestra 1/"Dr. Fulano de tal"</strong>/Bloco D - Sala 1/9:00 horas</p>
@@ -356,7 +357,7 @@
                         </div>
                     </div>
                     <div class="col s12 m12">
-                        <div class="card-panel hoverable   white-text green darken-2">
+                        <div class="card-panel hoverable   white-text green darken-2 cards">
                             <p>tarde </p>
                             <p>
                                 <strong>"Palestra 2/ MsC. Siclano de tal"</strong>/Bloco A - Mini auditorio/14:00 horas</p>
@@ -373,7 +374,7 @@
                         </div>
                     </div>
                     <div class="col s12 m12">
-                        <div class="card-panel hoverable white-text deep-orange">
+                        <div class="card-panel hoverable white-text deep-orange cards">
                             <p>noite </p>
                             <p>
                                 <strong>"Oficina 4"/ "Prof. Elano de tal"</strong>/Bloco b - Sala 9 / 19:00</p>

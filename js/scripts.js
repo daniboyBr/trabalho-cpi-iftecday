@@ -7,9 +7,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
 $(document).ready(function(){
     $('.slider').slider();
+
+    $("#contraste").click(function () {
+        $("body").toggleClass('contrast');
+        $("nav div").toggleClass('green darken-2')
+        $("footer").toggleClass('green darken-2');
+
+    });
 });
 
 $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     indicators: true
 });
+
+
