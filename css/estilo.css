@@ -100,6 +100,10 @@ h1,h3,strong {
     /*filter: brightness(0) invert(1);*/
 /*}*/
 
+.contrast img{
+    filter: saturate(1%);
+}
+
 .contrast input[type=text],
 .contrast input[type=password],
 .contrast input[type=url],
