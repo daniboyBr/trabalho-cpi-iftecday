@@ -16,7 +16,7 @@
 <body>
     <ul id="atalhos" role="menu">
         <li role="menuitem"><a href="#evento" accesskey="1" tabindex="1">Sobre o Evento [1]</a></li>
-        <li role="menuitem"><a href="#palestrantes" accesskey="2" tabindex="2">Ir para Paletrantes [2]</a></li>
+        <li role="menuitem"><a href="#palestrantes" accesskey="2" tabindex="2">Ir para Palestrantes [2]</a></li>
         <li role="menuitem"><a href="#oficinas" accesskey="3" tabindex="3">Ir para as Oficinas [3]</a></li>
         <li role="menuitem"><a href="#cronograma" accesskey="4" tabindex="4">Ir para Cronograma[4]</a></li>
         <li role="menuitem"><a href="#contato" accesskey="5" tabindex="5">Ir para Contato[5]</a></li>
@@ -25,7 +25,7 @@
     <nav>
         <div class="nav-wrapper green darken-2">
             <div class="container">
-                <a href="#" class="brand-logo">IF TEC DAY</a>
+                <a href="#" class="brand-logo">IF TECH DAY</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down" role="navigation">
                     <li>
                         <a href="#evento" tabindex="7">O Evento</a>
@@ -40,7 +40,7 @@
                         <a href="#" tabindex="10">Contato</a>
                     </li>
                     <li>
-                        <a href="" class=" btn waves-effect waves-light white orange-text botao_contrast" tabindex="11">inscreva-se</a>
+                        <a id="inscricao" href="" class=" btn waves-effect waves-light orange botao_contrast bolder" tabindex="11">inscreva-se</a>
                     </li>
                 </ul>
             </div>
@@ -49,15 +49,15 @@
     <div class="slider">
         <ul class="slides">
             <li>
-                <img src="https://lorempixel.com/580/250/nature/1">
+                <img src="img/workshop01.jpg" >
                 <!-- random image -->
-                <div class="caption center-align">
+                <div class="caption left-align" alt="Imagem mostra reuniao de alunos na primeira palestra">
                     <h3>This is our big Tagline!</h3>
                     <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                 </div>
             </li>
             <li>
-                <img src="https://lorempixel.com/580/250/nature/2">
+                <img src="img/workshop02.jpg" alt="Imagem mostra reuniao de alunos na segunda palestra">
                 <!-- random image -->
                 <div class="caption left-align">
                     <h3>Left Aligned Caption</h3>
@@ -65,17 +65,17 @@
                 </div>
             </li>
             <li>
-                <img src="https://lorempixel.com/580/250/nature/3">
+                <img src="img/workshop03.jpg" alt="Imagem mostra reuniao de alunos na terceira palestra">
                 <!-- random image -->
-                <div class="caption right-align">
+                <div class="caption left-align">
                     <h3>Right Aligned Caption</h3>
                     <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                 </div>
             </li>
             <li>
-                <img src="https://lorempixel.com/580/250/nature/4">
+                <img src="img/workshop04.jpg" alt="Imagem mostra reuniao de alunos na quarta palestra">
                 <!-- random image -->
-                <div class="caption center-align">
+                <div class="caption left-align">
                     <h3>This is our big Tagline!</h3>
                     <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
                 </div>
@@ -87,7 +87,7 @@
         <div class="row">
             <div class="col s12 m6">
                 <h1 class="center orange-text text-deep" id="evento" tabindex="12">o evento</h1>
-                <p class="justfy">
+                <p class="justfy" tabindex="13">
                     &emsp;O IFTechDAY é um evento de tecnologia do IFB campus Brasília, aberto ao público e totalmente gratuito, está na sua quinta edição.<br>
                     &emsp;IFTechDay – Organizado pela Comissão composta pelos docentes Ana Regia, Alex, Caio, Camila e Daniel – visa difundir conhecimentos nas diversas áreas da TI entre alunos e alunas desde o ensino médio a profissionais da área e interessados. 
                     O evento acontece nos dias 13 e 14 de setembro, no Campus Brasília (localizado na quadra 610 Norte) e contará com palestras, oficinas e desafios como maratona de programação dentre outros.
@@ -97,8 +97,8 @@
             <div class="col s12 m6 ">
                 <div class="card">
                     <div class="card-image">
-                        <img src="https://images.pexels.com/photos/1155574/pexels-photo-1155574.jpeg?auto=compress&cs=tinysrgb&h=350" class="hoverable responsive-img"
-                            alt="">
+                        <img src="img/iftech.jpg" class="hoverable responsive-img"
+                            alt="imagem com logo do evento" tabindex="14"></div>
                     </div>
                 </div>
             </div>
@@ -112,85 +112,40 @@
                     <div class="col s12 m4">
                         <div class="card cards">
                             <div class="card-image">
-                                <div class="carousel carousel-slider center">
-                                    <div class="carousel-item red white-text" href="#one!">
-                                        <h2>First Panel</h2>
-                                        <p class="white-text">This is your first panel</p>
-                                    </div>
-                                    <div class="carousel-item amber white-text" href="#two!">
-                                        <h2>Second Panel</h2>
-                                        <p class="white-text">This is your second panel</p>
-                                    </div>
-                                    <div class="carousel-item green white-text" href="#three!">
-                                        <h2>Third Panel</h2>
-                                        <p class="white-text">This is your third panel</p>
-                                    </div>
-                                    <div class="carousel-item blue white-text" href="#four!">
-                                        <h2>Fourth Panel</h2>
-                                        <p class="white-text">This is your fourth panel</p>
-                                    </div>
-                                </div>
-
+                                <img src="img/torvalds.jpg" alt="Foto do palestrante Linus Torvalds">
+                                <span class="card-title"><strong>Linus Benedict Torvalds<strong></span>
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                    because I require little markup to use effectively.</p>
+                                <p>Linus Benedict Torvalds é um engenheiro de software, nascido na Finlândia e naturalizado estado-unidense em 2010,
+                                    criador, e por muito tempo o desenvolvedor mais importante do núcleo Linux, sendo utilizado em importantes sistemas Linux, Android e Chrome OS.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m4">
                         <div class="card cards">
                             <div class="card-image">
-                                <div class="carousel carousel-slider center">
-                                    <div class="carousel-item red white-text" href="#one!">
-                                        <h2>First Panel</h2>
-                                        <p class="white-text">This is your first panel</p>
-                                    </div>
-                                    <div class="carousel-item amber white-text" href="#two!">
-                                        <h2>Second Panel</h2>
-                                        <p class="white-text">This is your second panel</p>
-                                    </div>
-                                    <div class="carousel-item green white-text" href="#three!">
-                                        <h2>Third Panel</h2>
-                                        <p class="white-text">This is your third panel</p>
-                                    </div>
-                                    <div class="carousel-item blue white-text" href="#four!">
-                                        <h2>Fourth Panel</h2>
-                                        <p class="white-text">This is your fourth panel</p>
-                                    </div>
-                                </div>
+                                <img src="img/tanenbaum.jpeg"
+                                     alt="Foto do palestrante Andrew Stuart Tanenbaum" width="355px" height="266px">
+                                <span class="card-title"><strong>Andrew Stuart Tanenbaum<strong></span>
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                    because I require little markup to use effectively.</p>
+                                <p>Andrew Stuart Tanenbaum é o chefe do Departamento de sistemas de computação, na Universidade Vrije,
+                                    Amsterdã nos Países Baixos. Ele é o autor do MINIX, um sistema operacional baseado no Unix com propósito
+                                    educacional, e bastante conhecido por seus livros sobre ciência da computação.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m4">
                         <div class="card cards">
                             <div class="card-image">
-                                <div class="carousel carousel-slider center">
-                                    <div class="carousel-item red white-text" href="#one!">
-                                        <h2>First Panel</h2>
-                                        <p class="white-text">This is your first panel</p>
-                                    </div>
-                                    <div class="carousel-item amber white-text" href="#two!">
-                                        <h2>Second Panel</h2>
-                                        <p class="white-text">This is your second panel</p>
-                                    </div>
-                                    <div class="carousel-item green white-text" href="#three!">
-                                        <h2>Third Panel</h2>
-                                        <p class="white-text">This is your third panel</p>
-                                    </div>
-                                    <div class="carousel-item blue white-text" href="#four!">
-                                        <h2>Fourth Panel</h2>
-                                        <p class="white-text">This is your fourth panel</p>
-                                    </div>
-                                </div>
+                                <img src="img/turing.jpg" alt="foto do palestrante Alan Turing" width="355px" height="266px">
+                                <span class="card-title"><strong>Alan turing<strong></span>
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                    because I require little markup to use effectively.</p>
+                                <p>Alan Mathison Turing foi um matemático, lógico, criptoanalista e cientista da computação britânico.
+                                    Influenciou no desenvolvimento da ciência da computação e no conceito de algoritmo
+                                    e computação com a máquina de Turing, desempenhando um papel importante na criação do computador moderno.
+                                   É conhecido como o pai da computação.</p>
                             </div>
                         </div>
                     </div>
@@ -205,84 +160,41 @@
                     <div class="col s12 m4">
                         <div class="card cards">
                             <div class="card-image">
-                                <div class="carousel carousel-slider center">
-                                    <div class="carousel-item red white-text" href="#one!">
-                                        <h2>First Panel</h2>
-                                        <p class="white-text">This is your first panel</p>
-                                    </div>
-                                    <div class="carousel-item amber white-text" href="#two!">
-                                        <h2>Second Panel</h2>
-                                        <p class="white-text">This is your second panel</p>
-                                    </div>
-                                    <div class="carousel-item green white-text" href="#three!">
-                                        <h2>Third Panel</h2>
-                                        <p class="white-text">This is your third panel</p>
-                                    </div>
-                                    <div class="carousel-item blue white-text" href="#four!">
-                                        <h2>Fourth Panel</h2>
-                                        <p class="white-text">This is your fourth panel</p>
-                                    </div>
-                                </div>
+                                <img src="img/oficina1.jpg" alt="Imagem mostra exposição da oficina de robótica">
+                                <span class="card-title"><strong>Oficina 1: Robotica<strong></span>
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                    because I require little markup to use effectively.</p>
+                                <p>Oficina de robotica espera mais de 30 alunos, com foco de orientar e apresentar aos alunos
+                                o mundo da robotica e seus desafios, e ao final exposição dos robôs feito pelos alunos.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m4">
                         <div class="card cards">
                             <div class="card-image">
-                                <div class="carousel carousel-slider center">
-                                    <div class="carousel-item red white-text" href="#one!">
-                                        <h2>First Panel</h2>
-                                        <p class="white-text">This is your first panel</p>
-                                    </div>
-                                    <div class="carousel-item amber white-text" href="#two!">
-                                        <h2>Second Panel</h2>
-                                        <p class="white-text">This is your second panel</p>
-                                    </div>
-                                    <div class="carousel-item green white-text" href="#three!">
-                                        <h2>Third Panel</h2>
-                                        <p class="white-text">This is your third panel</p>
-                                    </div>
-                                    <div class="carousel-item blue white-text" href="#four!">
-                                        <h2>Fourth Panel</h2>
-                                        <p class="white-text">This is your fourth panel</p>
-                                    </div>
-                                </div>
+                                <img src="img/oficina2.jpg" alt="Imagem mostra reunião de alunos na oficina de Cibersegurança">
+                                <span class="card-title"><strong>Oficina 2: Cibersegurança<strong></span>
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                    because I require little markup to use effectively.</p>
+                                <p>
+                                    Oficinia reúne alunos e professores interaçados no mundo da segurança da informação,
+                                    foco principal esta nos principios de segurança, e ao final uma competição de hacking e
+                                    quebra de senhas.
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col s12 m4">
                         <div class="card cards">
                             <div class="card-image">
-                                <div class="carousel carousel-slider center">
-                                    <div class="carousel-item red white-text" href="#one!">
-                                        <h2>First Panel</h2>
-                                        <p class="white-text">This is your first panel</p>
-                                    </div>
-                                    <div class="carousel-item amber white-text" href="#two!">
-                                        <h2>Second Panel</h2>
-                                        <p class="white-text">This is your second panel</p>
-                                    </div>
-                                    <div class="carousel-item green white-text" href="#three!">
-                                        <h2>Third Panel</h2>
-                                        <p class="white-text">This is your third panel</p>
-                                    </div>
-                                    <div class="carousel-item blue white-text" href="#four!">
-                                        <h2>Fourth Panel</h2>
-                                        <p class="white-text">This is your fourth panel</p>
-                                    </div>
-                                </div>
+                                <img src="img/oficina3.png" alt="Imagem mostra alunos reunidos na sala da oficina de aplicativos">
+                                <span class="card-title"><strong>Oficina 3: Lab App<strong></span>
                             </div>
                             <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient
-                                    because I require little markup to use effectively.</p>
+                                <p>A oficina busca apresentar aos alunos e participantes, tecnologias e dicas no desenvolvimento de aplicativos
+                                    , ao final apresentação dos aplicativos desenvolvidos pelos alunos.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -546,28 +458,32 @@
         </section>
     </div>
     <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d61439.18130555961!2d-47.91374157403104!3d-15.753845895541097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x935a3b1e02415707%3A0x3060d8a3139ab079!2sifb+maps!3m2!1d-15.7539313!2d-47.8787221!4m0!5e0!3m2!1spt-BR!2sbr!4v1528900404228"
-        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        width="100%" height="450" frameborder="0" allowfullscreen></iframe>
     <footer class="page-footer green darken-2">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Footer Content</h5>
-                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    <h5 class="white-text">Mapa do site</h5>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
                     <ul>
                         <li>
-                            <a class="grey-text text-lighten-3" href="#!">Link 1</a>
+                            <a class="grey-text text-lighten-3" href="#cronograma">Inscreva-se</a>
                         </li>
                         <li>
-                            <a class="grey-text text-lighten-3" href="#!">Link 2</a>
+                            <a class="grey-text text-lighten-3" href="#evento">O Evento</a>
                         </li>
                         <li>
-                            <a class="grey-text text-lighten-3" href="#!">Link 3</a>
+                            <a class="grey-text text-lighten-3" href="#palestrantes">Palestrantes</a>
                         </li>
                         <li>
-                            <a class="grey-text text-lighten-3" href="#!">Link 4</a>
+                            <a class="grey-text text-lighten-3" href="#oficinas">Oficinas</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#cronograma">Cronograma</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#cronograma">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -575,9 +491,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2014 Copyright Text
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
+                © 2018 Copyright Grupo 2 - IFB</div>
         </div>
     </footer>
 
