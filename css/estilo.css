@@ -19,7 +19,7 @@ iframe{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-
+.modal { width: 75% !important ; height: 75% !important ; }  /* increase the height and width as you desire */
 
 #atalhos {
 
