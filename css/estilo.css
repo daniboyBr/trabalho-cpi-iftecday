@@ -15,6 +15,12 @@ iframe{
     text-transform: uppercase;
 }
 
+.font-shadow{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
 #atalhos {
 
     background: #3a734c;
